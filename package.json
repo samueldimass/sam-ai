@@ -1,0 +1,34 @@
+{
+  "name": "sam-ai",
+  "version": "2.0.0",
+  "description": "WhatsApp AI Bot untuk Manajemen Grup dengan Download MP3/MP4",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "ai",
+    "baileys",
+    "group-manager",
+    "youtube-downloader"
+  ],
+  "author": "Samuel Dimass",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.4.0",
+    "openai": "^4.28.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "pino": "^8.16.2",
+    "pino-pretty": "^10.2.3",
+    "qrcode-terminal": "^0.12.0",
+    "axios": "^1.6.2",
+    "youtube-dl": "^1.12.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
